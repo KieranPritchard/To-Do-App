@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function ToDoInput({setTasks }){
+function ToDoInput({setTasks}){
     const [task, setTask] = useState("")
 
     function handleChange(e){
