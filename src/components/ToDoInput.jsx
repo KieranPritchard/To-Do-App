@@ -1,17 +1,17 @@
 import { useState } from "react"
 
-function ToDoInput({setTasks}){
+function ToDoInput({setTasks, tasks}){
     const [task, setTask] = useState("")
 
     function handleChange(e){
         setTask(e.target.value)
-        setTasks()
     }
 
 
     function handleSubmit(e){
-        e.preventDefault()
-        setTasks(tasks.push(task))
+        e.preventDefault();
+        setTasks([...tasks, task]);
+        setTask("");
     }
     
     return(

@@ -7,7 +7,7 @@ function App(){
 
   return(
     <div>
-      <ToDoInput setTasks={setTasks}/>
+      <ToDoInput tasks={tasks} setTasks={setTasks}/>
       <TaskList tasks={tasks}/>
     </div>
   )
