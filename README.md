@@ -1,16 +1,44 @@
-# React + Vite
+# To-Do-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This project is a web-based to‐do list application created in reactJS to practise using forms and the map function. It provides a simple interface where a user can add tasks, mark them as completed, and remove them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Objective
 
-## React Compiler
+To build a to do app in react. That allows a user to manage a list of to-do items in the browser. This project aims to improve understanding of react.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Features
+- User can add new tasks via an input field.
+- Tasks appear in a list with control to delete.
+- Tasks can be removed when no longer required.
 
-## Expanding the ESLint configuration
+### Technologies and Tools Used
+- Language: HTML, CSS, JavaScript.
+- Frameworks/Libraries: React
+- Tools: Git & GitHub for version control and hosting; VS Code to program it
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Challenges Faced
+
+- Learning how move state to parent components from child.
+- Setting up github pages proved to be difficult this time around due to build script not working as intended
+
+## Outcome
+
+I created a fully functional to do list app with react which allowed me to improve my skills in state management, forms, and mapping arrarys.
+
+## Next Steps
+
+- To move onto the next project where i will be building a new portfolio page to track CTF (Capture the flag challenges)
+- Keep working on building javascript framework skills in react and nodejs.
+
+## How to Use the Project
+
+### 1. Visit the Live App
+- Open the project directly in your browser:
+- 👉 (https://kieranpritchard.github.io/To-Do-App/)[https://kieranpritchard.github.io/To-Do-App/]
+### 2. Add a New Task
+- Type your task into the input box.
+- Click the Add button (or press Enter) to add it to your list.
+### 3. Manage Your Tasks
+- 🗑️ Delete a task: Click the trash icon next to any task to remove it.
